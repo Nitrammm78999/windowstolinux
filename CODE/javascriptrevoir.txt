@@ -1,0 +1,96 @@
+/* JavaScriptOrdre:
+https://www.codecademy.com/learn/learn-javascript-fundamentals:
+https://www.codecademy.com/learn/learn-javascript-iterators:
+https://www.codecademy.com/learn/learn-javascript-arrays-and-loops:
+https://www.codecademy.com/learn/learn-javascript-functions-and-scope:
+https://www.codecademy.com/learn/javascript-errors-debugging:
+https://www.codecademy.com/learn/learn-javascript-objects:
+https://www.codecademy.com/learn/learn-javascript-classes-and-modules:
+https://www.codecademy.com/learn/introduction-to-back-end-programming:
+*/
+
+JavaScript resumer grand cours:
+1:
+Jetons un dernier coup d'œil aux concepts que nous venons d'apprendre :
+
+Les données sont imprimées ou enregistrées sur la console, un panneau qui affiche des messages, avec console.log().
+Nous pouvons écrire des commentaires sur une seule ligne avec //et des commentaires sur plusieurs lignes entre /*et */.
+Il existe 7 types de données fondamentaux en JavaScript : chaînes , nombres, booléens, nuls, non définis, symboles et objets.
+Les nombres sont n'importe quel nombre sans guillemets :23.8879
+Les chaînes sont des caractères entourés de guillemets simples ou doubles :'Sample String'
+Les opérateurs arithmétiques intégrés incluent +, -, *, /et %.
+Les objets , y compris les instances de types de données, peuvent avoir des propriétés et des informations stockées. Les propriétés sont indiquées par un .après le nom de l'objet, par exemple : 'Hello'.length.
+Les objets, y compris les instances de types de données, peuvent avoir des méthodes qui effectuent des actions. Les méthodes sont appelées en ajoutant à l'objet ou à l'instance un point, le nom de la méthode et des parenthèses. Par exemple: 'hello'.toUpperCase().
+Nous pouvons accéder aux propriétés et aux méthodes en utilisant l' .opérateur point.
+Les objets intégrés, notamment Math, sont des collections de méthodes et de propriétés fournies par JavaScript.
+2:
+Bon travail! Cette leçon vous a présenté les variables, un concept puissant que vous utiliserez dans tous vos futurs efforts de programmation.
+
+Passons en revue ce que nous avons appris :
+
+Les variables contiennent des données réutilisables dans un programme et les associent à un nom.
+Les variables sont stockées en mémoire.
+Le varmot-clé est utilisé dans les versions pré-ES6 de JS.
+letest le moyen préféré pour déclarer une variable lorsqu'elle peut être réaffectée, et constconstitue le moyen préféré pour déclarer une variable avec une valeur constante.
+Les variables qui n'ont pas été initialisées stockent le type de données primitif undefined.
+Les opérateurs d'affectation mathématique permettent de calculer facilement une nouvelle valeur et de l'attribuer à la même variable.
+L' +opérateur est utilisé pour concaténer des chaînes comprenant des valeurs de chaîne contenues dans des variables.
+Dans ES6, les littéraux de modèles utilisent des backticks `et ${}interpolent des valeurs dans une chaîne.
+Le typeofmot-clé renvoie le type de données (sous forme de chaîne) d'une valeur.
+3:
+Marche à suivre! Voici quelques-uns des principaux concepts relatifs aux conditions :
+
+Une ifinstruction vérifie une condition et exécutera une tâche si cette condition est évaluée à true.
+if...elseles instructions prennent des décisions binaires et exécutent différents blocs de code en fonction d'une condition fournie.
+Nous pouvons ajouter plus de conditions à l'aide else ifd'instructions.
+Les opérateurs de comparaison, notamment <, >, <=, >=, ===et !==peuvent comparer deux valeurs.
+L'opérateur logique et &&, ou « et », vérifie si les deux expressions fournies sont véridiques.
+L'opérateur logique ||, ou « ou », vérifie si l'une ou l'autre des expressions fournies est véridique.
+L'opérateur bang, !, change la véracité et la fausseté d'une valeur.
+L'opérateur ternaire est un raccourci pour simplifier if...elseles déclarations concises.
+Une switchinstruction peut être utilisée pour simplifier le processus d’écriture de plusieurs else ifinstructions. Le mot-clé empêche la vérification et l'exécution des s breakrestants dans une instruction.caseswitch
+4:
+Donnez-vous une tape dans le dos, vous venez de naviguer dans les fonctions !
+
+Dans cette leçon, nous avons abordé quelques concepts importants sur les fonctions :
+
+Une fonction est un bloc de code réutilisable qui regroupe une séquence d’instructions pour effectuer une tâche spécifique.
+
+Une déclaration de fonction :
+
+Diagramme montrant la syntaxe d'une déclaration de fonction
+Un paramètre est une variable nommée à l'intérieur du bloc d'une fonction à laquelle sera attribuée la valeur de l'argument transmis lorsque la fonction est invoquée :
+
+Syntaxe JavaScript pour déclarer une fonction avec des paramètres
+Pour appeler une fonction dans votre code :
+
+Diagramme montrant la syntaxe d'appel d'une fonction
+ES6 introduit de nouvelles façons de gérer les paramètres arbitraires via des paramètres par défaut qui nous permettent d'attribuer une valeur par défaut à un paramètre au cas où aucun argument n'est transmis à la fonction.
+
+Pour renvoyer une valeur d'une fonction, nous utilisons une instruction return .
+
+Pour définir une fonction à l'aide d'expressions de fonction :
+
+définir une expression de fonction
+Pour définir une fonction à l'aide de la notation de fonction fléchée :
+
+
+La définition de la fonction peut être rendue concise à l'aide d'une notation fléchée concise :
+
+comparaison des fonctions de flèches sur une seule ligne et sur plusieurs lignes
+Il est bon d'être conscient des différences entre les expressions de fonction, les fonctions fléchées et les déclarations de fonction. Au fur et à mesure que vous programmez davantage en JavaScript, vous verrez une grande variété de façons dont ces types de fonctions sont utilisés.
+5:
+Dans cette leçon, vous avez découvert la portée et son impact sur l'accessibilité des différentes variables .
+
+Passons en revue les termes suivants :
+
+La portée fait référence à l'endroit où les variables sont accessibles dans tout le programme et est déterminée par l'endroit et la manière dont elles sont déclarées.
+Les blocs sont des instructions qui existent entre accolades {}.
+La portée globale fait référence au contexte dans lequel les variables sont accessibles à chaque partie du programme.
+Les variables globales sont des variables qui existent dans une portée globale.
+La portée du bloc fait référence au contexte dans lequel les variables sont accessibles uniquement dans le bloc dans lequel elles sont définies.
+Les variables locales sont des variables qui existent dans la portée du bloc.
+L'espace de noms global est l'espace de notre code qui contient des informations de portée mondiale.
+La pollution de la portée se produit lorsqu'il existe trop de variables dans un espace de noms ou que les noms de variables sont réutilisés.
+Alors que vous poursuivez votre parcours de codage, n'oubliez pas d'utiliser les meilleures pratiques lors de la déclaration de vos variables ! En définissant étroitement la portée de vos variables, vous garantirez que votre code a une logique propre, organisée et modulaire.
+

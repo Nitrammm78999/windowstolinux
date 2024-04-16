@@ -1,0 +1,12 @@
+Créez un nouveau référentiel sur la ligne de commande
+git init 
+git add 'README.md'
+git commit -m "commentaire" 
+git branch -M main
+'Si ajouter tt dossier + ajouter juste un ficher' git remote add origin https://github.com/Nitrammm78999/CODE.git
+git push -u origin 'branch'
+
+Pousser un dépôt existant depuis la ligne de commande
+git remote add origin https://github.com/Nitrammm78999/CODE.git
+git branch -M main
+git push -u origin main

@@ -1,0 +1,13 @@
+Idée de site de présentation de moi(port folio)
+site web "chat"
+application qui permet de trouver une musique 
+application/site de resultat de sport
+site web de parcours de formation
+site web puis application de sauvegarde (git)
+site web de test de reaction
+site web de gestionnaire de note 
+site web de teste de volant
+site web avec tous les jeux liste
+site web resultat f1 comme pcs(cycling)(cms "drupal ou wordpress")
+beginner "HTML , CSS , JAVASCRIPT , PHP , SQL"
+intermidiate " // "

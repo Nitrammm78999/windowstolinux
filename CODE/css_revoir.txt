@@ -1,0 +1,117 @@
+1:
+Excellent travail jusqu'à présent ! En comprenant comment incorporer du code CSS dans votre fichier HTML et en apprenant certains termes clés, vous êtes sur la bonne voie pour créer des sites Web spectaculaires avec HTML et CSS.
+
+Passons en revue ce que vous avez appris jusqu'à présent :
+
+L'anatomie de base de la syntaxe CSS écrite à la fois pour les styles en ligne et les feuilles de style.
+Certains termes CSS couramment utilisés, tels que Ruleset , Selector et Déclaration .
+Les styles en ligne CSS peuvent être écrits dans la balise HTML d'ouverture à l'aide de l' styleattribut.
+Les styles en ligne peuvent être utilisés pour styliser le HTML, mais ce n'est pas la meilleure pratique.
+Une feuille de style interne est écrite en utilisant l' <style>élément à l'intérieur de l' <head>élément d'un fichier HTML.
+Les feuilles de style internes peuvent être utilisées pour styliser le HTML, mais ne constituent pas non plus une bonne pratique.
+Une feuille de style externe sépare le code CSS du HTML, en utilisant l' .cssextension de fichier.
+Les feuilles de style externes constituent la meilleure approche lorsqu'il s'agit d'utiliser HTML et CSS.
+Les feuilles de style externes sont liées au HTML à l'aide de l' <link>élément.
+2:
+Tout au long de cette leçon, vous avez appris à sélectionner des éléments HTML avec CSS et à leur appliquer des styles. Passons en revue ce que vous avez appris :
+
+CSS peut sélectionner des éléments HTML par type, classe, ID et attribut.
+Tous les éléments peuvent être sélectionnés à l'aide du sélecteur universel.
+Un élément peut avoir différents états grâce au sélecteur de pseudo-classe.
+Plusieurs classes CSS peuvent être appliquées à un élément HTML.
+Les classes peuvent être réutilisables, tandis que les identifiants ne peuvent être utilisés qu'une seule fois.
+Les identifiants sont plus spécifiques que les classes, et les classes sont plus spécifiques que le type. Cela signifie que les identifiants remplaceront tous les styles d'une classe et que les classes remplaceront tous les styles d'un sélecteur de type.
+Plusieurs sélecteurs peuvent être enchaînés pour sélectionner un élément. Cela soulève la spécificité mais peut être nécessaire.
+Les éléments imbriqués peuvent être sélectionnés en séparant les sélecteurs par un espace.
+Plusieurs sélecteurs non liés peuvent recevoir les mêmes styles en séparant les noms des sélecteurs par des virgules.
+Super travail cette leçon. Avec ces connaissances, vous serez en mesure d'utiliser CSS pour modifier l'apparence des sites Web afin de les rendre superbes !
+3:
+Un travail incroyable ! Vous avez utilisé CSS pour modifier le texte et les images d'un site Web. Tout au long de cette leçon, vous avez appris des concepts tels que :
+
+La font-family"propriété définit la police d'un élément.
+"font-size"contrôle la taille du texte affiché.
+"font-weight"définit la façon dont le texte fin ou épais est affiché.
+La "text-align"propriété place le texte à gauche, à droite ou au centre de son conteneur parent.
+Le texte peut avoir deux attributs de couleur différents : "color"et "background-color". "color"définit la couleur du texte, tandis que "background-color"définit la couleur derrière le texte.
+CSS peut rendre un élément transparent avec la opacitypropriété.
+CSS peut également définir l'arrière-plan d'un élément sur une image avec la background-imagepropriété.
+Le !importantdrapeau remplacera n'importe quel style, mais il ne devrait presque jamais être utilisé, car il est extrêmement difficile à remplacer.
+4:
+Dans cette leçon, nous avons abordé les quatre propriétés du modèle de boîte : height et width , padding , borders et margins . Comprendre le modèle de boîte est une étape importante vers l'apprentissage de sujets HTML et CSS plus avancés. Prenons une minute pour revoir ce que vous avez appris :
+
+Le modèle de boîte comprend un ensemble de propriétés utilisées pour créer un espace autour et entre les éléments HTML.
+La hauteur et la largeur d'une zone de contenu peuvent être définies en pixels ou en pourcentages.
+Des bordures entourent la zone de contenu et le remplissage d'un élément. La couleur, le style et l'épaisseur d'une bordure peuvent être définis avec les propriétés CSS.
+Le remplissage est l'espace entre la zone de contenu et la bordure. Il peut être défini en pixels ou en pourcentage.
+La marge est la quantité d'espacement en dehors de la bordure d'un élément.
+Les marges horizontales s'ajoutent, de sorte que l'espace total entre les bordures des éléments adjacents est égal à la somme de la marge droite d'un élément et de la marge gauche de l'élément adjacent.
+Les marges verticales s'effondrent, de sorte que l'espace entre les éléments verticalement adjacents est égal à la plus grande marge.
+margin: 0 autocentre horizontalement un élément à l'intérieur de sa zone de contenu parent, s'il a une largeur.
+La overflowpropriété peut être définie sur display, hiddenou scroll, et dicte la manière dont HTML restituera le contenu qui déborde de la zone de contenu de son parent.
+La visibilitypropriété peut masquer ou afficher des éléments.
+5:
+Dans cette leçon, vous avez découvert une limitation importante du modèle de boîte par défaut : les dimensions de la boîte sont affectées par l'épaisseur et le remplissage de la bordure .
+
+Passons en revue ce que vous avez appris :
+
+Dans le modèle de boîte par défaut , les dimensions de la boîte sont affectées par l'épaisseur et le remplissage de la bordure.
+La box-sizingpropriété contrôle le modèle de boîte utilisé par le navigateur.
+La valeur par défaut de la box-sizingpropriété est content-box.
+La valeur du nouveau modèle de boîte est border-box.
+Le border-boxmodèle n'est pas affecté par l'épaisseur de la bordure ou le remplissage.
+6:
+"Étant donné que les éléments positionnés staticet relativerestent dans le flux normal du document
+, lorsqu'un utilisateur fait défiler la page (ou l'élément parent), ces éléments défilent également. 
+Et comme les éléments positionnés fixedet absolutesont supprimés du flux de documents, lorsqu'un utilisateur fait défiler, ces éléments resteront à leur position de décalage spécifiée."
+Bon travail! Dans cette leçon, vous avez appris à contrôler le positionnement des éléments sur une page Web.
+
+Passons en revue ce que vous avez appris jusqu'à présent :
+
+La positionpropriété vous permet de spécifier la position d'un élément.
+Lorsqu'il est défini sur relative, la position d'un élément est relative à sa position par défaut sur la page.
+Lorsqu'il est défini sur absolute, la position d'un élément est relative à son élément parent le plus proche. Il peut être épinglé sur n’importe quelle partie de la page Web, mais l’élément se déplacera toujours avec le reste du document lors du défilement de la page.
+Lorsqu'il est défini sur fixed, la position d'un élément peut être épinglée sur n'importe quelle partie de la page Web. L’élément restera visible quoi qu’il arrive.
+Lorsqu'il est défini sur sticky, un élément peut rester à une position de décalage définie lorsque l'utilisateur fait défiler son conteneur parent.
+La z-indexvaleur d'un élément spécifie à quelle distance en arrière ou en avant un élément apparaît sur la page lorsqu'il chevauche d'autres éléments.
+La displaypropriété vous permet de contrôler la façon dont un élément se déplace verticalement et horizontalement dans un document.
+inlineles éléments prennent le moins de place possible et ne peuvent pas être ajustés manuellement widthou height.
+blockles éléments occupent la largeur de leur conteneur et peuvent avoir heightdes s ajustés manuellement.
+inline-blockles éléments peuvent avoir set widthet height, mais ils peuvent également apparaître les uns à côté des autres et n'occuper pas toute la largeur de leur conteneur.
+La floatpropriété peut déplacer les éléments le plus à gauche ou le plus à droite possible sur une page Web.
+Vous pouvez effacer le côté gauche ou droit d'un élément (ou les deux) à l'aide de la clearpropriété.
+Lorsqu'il est combiné à une compréhension du modèle de boîte , le positionnement peut créer des pages Web visuellement attrayantes. Jusqu'à présent, nous nous sommes concentrés sur l'ajout de contenu sous forme de texte à une page Web. Dans l'unité suivante, vous apprendrez à ajouter et à manipuler des images sur une page Web.
+7:
+Nous avons terminé notre vaste tour d’horizon des couleurs en CSS ! Passons en revue les informations clés que nous avons apprises.
+
+Il existe quatre façons de représenter la couleur en CSS :
+
+Couleurs nommées : il existe plus de 140 couleurs nommées, que vous pouvez consulter ici sur MDN .
+Couleurs hexadécimales ou hexadécimales
+L'hexadécimal est un système numérique composé de seize chiffres, de 0 à 9 suivis de « A » à « F ».
+Les valeurs hexadécimales commencent toujours par #et spécifient les valeurs de rouge, bleu et vert à l'aide de nombres hexadécimaux tels que #23F41A.
+Les valeurs hexadécimales à six chiffres avec des valeurs en double pour chaque valeur RVB peuvent être raccourcies à trois chiffres.
+RVB
+Les couleurs RVB utilisent la rgb()syntaxe avec une valeur pour le rouge, une valeur pour le bleu et une valeur pour le vert.
+Les valeurs RVB vont de 0 à 255 et ressemblent à ceci : rgb(7, 210, 50).
+LGV
+HSL signifie teinte (la couleur elle-même), saturation (l'intensité de la couleur) et luminosité (le degré de clarté ou d'obscurité d'une couleur).
+La teinte va de 0 à 360 et la saturation et la luminosité sont toutes deux représentées sous forme de pourcentages comme ceci : hsl(200, 20%, 50%).
+Vous pouvez ajouter de l'opacité à la couleur en RVB et HSL en ajoutant une quatrième valeur, areprésentée sous forme de pourcentage.
+Bon travail! N'hésitez pas à ajouter un peu de couleur à chacun de vos projets !
+8:
+Bon travail! Vous avez appris à styliser un aspect important de l'expérience utilisateur : la typographie.
+
+Passons en revue ce que vous avez appris jusqu'à présent :
+
+La typographie est l'art de disposer du texte sur une page.
+Le texte peut apparaître en gras ou en fin avec la font-weightpropriété.
+Le texte peut apparaître en italique avec la font-stylepropriété.
+L'espacement vertical entre les lignes de texte peut être modifié avec la line-heightpropriété.
+Les polices Serif comportent des détails supplémentaires aux extrémités de chaque lettre. Ce n’est pas le cas des polices Sans-Serif .
+Les polices de secours sont utilisées lorsqu'une certaine police n'est pas installée sur l'ordinateur d'un utilisateur.
+La word-spacingpropriété modifie la distance qui sépare les mots individuels.
+La letter-spacingpropriété modifie la distance qui sépare les lettres individuelles.
+La text-alignpropriété modifie l'alignement horizontal du texte.
+Google Fonts fournit des polices gratuites qui peuvent être utilisées dans un fichier HTML avec la <link>balise ou la @font-facepropriété.
+Des polices locales peuvent être ajoutées à un document avec la @font-facepropriété et le chemin d'accès à la source de la police.
+En utilisant vos nouvelles connaissances en typographie CSS, n'hésitez pas à modifier davantage le code pour rendre la page Web plus attrayante !

@@ -1,0 +1,61 @@
+1:
+Excellent travail jusqu'à présent ! En comprenant comment incorporer du code CSS dans votre fichier HTML et en apprenant certains termes clés, vous êtes sur la bonne voie pour créer des sites Web spectaculaires avec HTML et CSS.
+
+Passons en revue ce que vous avez appris jusqu'à présent :
+
+L'anatomie de base de la syntaxe CSS écrite à la fois pour les styles en ligne et les feuilles de style.
+Certains termes CSS couramment utilisés, tels que Ruleset , Selector et Déclaration .
+Les styles en ligne CSS peuvent être écrits dans la balise HTML d'ouverture à l'aide de l' styleattribut.
+Les styles en ligne peuvent être utilisés pour styliser le HTML, mais ce n'est pas la meilleure pratique.
+Une feuille de style interne est écrite en utilisant l' <style>élément à l'intérieur de l' <head>élément d'un fichier HTML.
+Les feuilles de style internes peuvent être utilisées pour styliser le HTML, mais ne constituent pas non plus une bonne pratique.
+Une feuille de style externe sépare le code CSS du HTML, en utilisant l' .cssextension de fichier.
+Les feuilles de style externes constituent la meilleure approche lorsqu'il s'agit d'utiliser HTML et CSS.
+Les feuilles de style externes sont liées au HTML à l'aide de l' <link>élément.
+2:
+Tout au long de cette leçon, vous avez appris à sélectionner des éléments HTML avec CSS et à leur appliquer des styles. Passons en revue ce que vous avez appris :
+
+CSS peut sélectionner des éléments HTML par type, classe, ID et attribut.
+Tous les éléments peuvent être sélectionnés à l'aide du sélecteur universel.
+Un élément peut avoir différents états grâce au sélecteur de pseudo-classe.
+Plusieurs classes CSS peuvent être appliquées à un élément HTML.
+Les classes peuvent être réutilisables, tandis que les identifiants ne peuvent être utilisés qu'une seule fois.
+Les identifiants sont plus spécifiques que les classes, et les classes sont plus spécifiques que le type. Cela signifie que les identifiants remplaceront tous les styles d'une classe et que les classes remplaceront tous les styles d'un sélecteur de type.
+Plusieurs sélecteurs peuvent être enchaînés pour sélectionner un élément. Cela soulève la spécificité mais peut être nécessaire.
+Les éléments imbriqués peuvent être sélectionnés en séparant les sélecteurs par un espace.
+Plusieurs sélecteurs non liés peuvent recevoir les mêmes styles en séparant les noms des sélecteurs par des virgules.
+Super travail cette leçon. Avec ces connaissances, vous serez en mesure d'utiliser CSS pour modifier l'apparence des sites Web afin de les rendre superbes !
+3:
+Un travail incroyable ! Vous avez utilisé CSS pour modifier le texte et les images d'un site Web. Tout au long de cette leçon, vous avez appris des concepts tels que :
+
+La font-family"propriété définit la police d'un élément.
+"font-size"contrôle la taille du texte affiché.
+"font-weight"définit la façon dont le texte fin ou épais est affiché.
+La "text-align"propriété place le texte à gauche, à droite ou au centre de son conteneur parent.
+Le texte peut avoir deux attributs de couleur différents : "color"et "background-color". "color"définit la couleur du texte, tandis que "background-color"définit la couleur derrière le texte.
+CSS peut rendre un élément transparent avec la opacitypropriété.
+CSS peut également définir l'arrière-plan d'un élément sur une image avec la background-imagepropriété.
+Le !importantdrapeau remplacera n'importe quel style, mais il ne devrait presque jamais être utilisé, car il est extrêmement difficile à remplacer.
+4:
+Dans cette leçon, nous avons abordé les quatre propriétés du modèle de boîte : height et width , padding , borders et margins . Comprendre le modèle de boîte est une étape importante vers l'apprentissage de sujets HTML et CSS plus avancés. Prenons une minute pour revoir ce que vous avez appris :
+
+Le modèle de boîte comprend un ensemble de propriétés utilisées pour créer un espace autour et entre les éléments HTML.
+La hauteur et la largeur d'une zone de contenu peuvent être définies en pixels ou en pourcentages.
+Des bordures entourent la zone de contenu et le remplissage d'un élément. La couleur, le style et l'épaisseur d'une bordure peuvent être définis avec les propriétés CSS.
+Le remplissage est l'espace entre la zone de contenu et la bordure. Il peut être défini en pixels ou en pourcentage.
+La marge est la quantité d'espacement en dehors de la bordure d'un élément.
+Les marges horizontales s'ajoutent, de sorte que l'espace total entre les bordures des éléments adjacents est égal à la somme de la marge droite d'un élément et de la marge gauche de l'élément adjacent.
+Les marges verticales s'effondrent, de sorte que l'espace entre les éléments verticalement adjacents est égal à la plus grande marge.
+margin: 0 autocentre horizontalement un élément à l'intérieur de sa zone de contenu parent, s'il a une largeur.
+La overflowpropriété peut être définie sur display, hiddenou scroll, et dicte la manière dont HTML restituera le contenu qui déborde de la zone de contenu de son parent.
+La visibilitypropriété peut masquer ou afficher des éléments.
+5:
+Dans cette leçon, vous avez découvert une limitation importante du modèle de boîte par défaut : les dimensions de la boîte sont affectées par l'épaisseur et le remplissage de la bordure .
+
+Passons en revue ce que vous avez appris :
+
+Dans le modèle de boîte par défaut , les dimensions de la boîte sont affectées par l'épaisseur et le remplissage de la bordure.
+La box-sizingpropriété contrôle le modèle de boîte utilisé par le navigateur.
+La valeur par défaut de la box-sizingpropriété est content-box.
+La valeur du nouveau modèle de boîte est border-box.
+Le border-boxmodèle n'est pas affecté par l'épaisseur de la bordure ou le remplissage.

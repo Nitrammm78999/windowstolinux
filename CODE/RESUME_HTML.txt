@@ -1,0 +1,109 @@
+1:
+Félicitations, vous avez terminé la première leçon de HTML ! Vous êtes sur la bonne voie pour devenir un développeur Web qualifié.
+
+Passons en revue ce que vous avez appris jusqu'à présent :
+
+HTML signifie Hyper T ext M arkup Language et est utilisé pour créer la structure et le contenu d'une page Web .
+La plupart des éléments HTML contiennent des balises d'ouverture et de fermeture avec du texte brut ou d'autres balises HTML entre elles.
+Les éléments HTML peuvent être imbriqués dans d'autres éléments. L'élément inclus est l'enfant de l'élément parent englobant.
+Tout contenu visible doit être placé entre les <body>balises d’ouverture et de fermeture.
+Les titres et sous-titres, <h1>ainsi que <h6>les balises, sont utilisés pour fournir des titres aux sections de contenu.
+<p>et <span>les <div>balises spécifient du texte ou des blocs.
+Les balises <em>et <strong>sont utilisées pour mettre en valeur le texte.
+Les sauts de ligne sont créés avec la <br>balise.
+Les listes ordonnées ( <ol>) sont numérotées et les listes non ordonnées ( <ul>) sont à puces.
+Des images ( <img>) et des vidéos ( <video>) peuvent être ajoutées en créant un lien vers une source existante.
+Voici quelques ressources supplémentaires à ajouter à votre boîte à outils :
+
+Documents de la Codecademy : HTML
+Espaces de travail Codecademy : HTML
+Assurez-vous de mettre ces liens dans vos favoris afin de les avoir à votre disposition.
+
+Dans la leçon suivante, nous prendrons le contenu que vous avez ajouté à ce site Web et le transformerons en un document HTML prêt à être publié sur le Web.
+2:
+Vous connaissez désormais tous les éléments de base et la configuration dont vous avez besoin pour structurer une page HTML et ajouter différents types de contenu. Avec l'aide de CSS, vous créerez très bientôt de superbes sites Web !
+
+Bien que certaines balises aient un objectif très spécifique, comme les balises d'image et de vidéo, la plupart des balises sont utilisées pour décrire le contenu qu'elles entourent, ce qui nous aide à modifier et à styliser notre contenu ultérieurement. Il existe un nombre apparemment infini de balises à utiliser (beaucoup plus que ce que nous avons enseigné). Savoir quand utiliser chacun d’eux dépend de la manière dont vous souhaitez décrire le contenu de votre code HTML. Des balises descriptives et bien choisies sont la clé d’un développement Web de haute qualité. Une liste complète des balises HTML disponibles peut être trouvée dans la documentation de Mozilla .
+
+Passons en revue ce que vous avez appris dans cette leçon :
+
+La <!DOCTYPE html>déclaration doit toujours être la première ligne de code de vos fichiers HTML. Cela permet au navigateur de savoir à quelle version de HTML s'attendre.
+L' <html>élément contiendra tout votre code HTML.
+Les informations sur la page Web, comme le titre, appartiennent à <head>la page.
+Vous pouvez ajouter un titre à votre page Web en utilisant l' <title>élément situé à l'intérieur de l'en-tête.
+Le titre d'une page Web apparaît dans l'onglet d'un navigateur.
+Les balises d'ancrage ( <a>) sont utilisées pour créer des liens vers des pages internes, des pages externes ou du contenu sur la même page.
+Vous pouvez créer des sections sur une page Web et y accéder à l'aide <a>de balises et en ajoutant iddes s aux éléments auxquels vous souhaitez accéder.
+Les espaces entre les éléments HTML facilitent la lecture du code sans modifier la façon dont les éléments apparaissent dans le navigateur.
+L'indentation contribue également à rendre le code plus facile à lire. Cela rend visibles les relations parents-enfants.
+Les commentaires sont écrits en HTML en utilisant la syntaxe suivante : <!-- comment -->.
+Prenez le temps de modifier l'espace de travail que vous avez créé et observez son évolution !
+2:
+Bon travail! Dans cette leçon, nous avons appris à créer un tableau, à y ajouter des données et à diviser le tableau en parties plus petites qui facilitent la lecture.
+
+Passons en revue ce que nous avons appris jusqu'à présent :
+
+L' <table>élément crée un tableau.
+L' <tr>élément ajoute des lignes à un tableau.
+Pour ajouter des données à une ligne, vous pouvez utiliser l' <td>élément.
+Les titres des tableaux clarifient la signification des données. Les titres sont ajoutés avec l' <th>élément.
+Les données du tableau peuvent s'étendre sur des colonnes à l'aide de l' colspanattribut.
+Les données du tableau peuvent s'étendre sur des lignes à l'aide de l' rowspanattribut.
+Les tableaux peuvent être divisés en trois sections principales : une tête, un corps et un pied de page.
+Un en-tête de tableau est créé avec l' <thead>élément.
+Le corps d'une table est créé avec l' <tbody>élément.
+Le pied de page d'un tableau est créé avec l' <tfoot>élément.
+Toutes les propriétés CSS que vous avez apprises dans ce cours peuvent être appliquées aux tables et à leurs données.
+Félicitations, vous avez terminé les tableaux HTML !
+3:
+Beau travail interagissant avec l'élément extrêmement commun et utile <form>!
+
+Dans cette leçon, nous avons abordé :
+
+Le but de a <form>est de permettre aux utilisateurs de saisir des informations et de les envoyer.
+L' attribut <form>' actiondétermine où vont les informations du formulaire.
+L' attribut <form>' methoddétermine la manière dont les informations sont envoyées et traitées.
+Pour ajouter des champs permettant aux utilisateurs de saisir des informations, nous utilisons l' <input>élément et définissons l' typeattribut sur un champ de notre choix :
+Le réglage typesur "text"crée un champ à une seule ligne pour la saisie de texte.
+Le réglage typesur "password"crée un champ à une seule ligne qui censure la saisie de texte.
+Le réglage typesur "number"crée un champ à une seule ligne pour la saisie de nombres.
+Le réglage typesur "range"crée un curseur pour sélectionner parmi une plage de nombres.
+La définition typede "checkbox"crée une seule case à cocher qui peut être associée à d’autres cases à cocher.
+Le réglage typesur "radio"crée un bouton radio qui peut être associé à d’autres boutons radio.
+La définition typeet "text"l'ajout de l' listattribut associeront le <input>à un <datalist>élément si le listof <input>et le idof <datalist>sont identiques.
+Le réglage typesur "submit"crée un bouton de soumission.
+Un <select>élément est rempli d' <option>éléments et affiche une sélection de liste déroulante.
+Un <datalist>élément est rempli d' <option>éléments et fonctionne avec un <input>pour rechercher parmi les choix.
+Un <textarea>élément est un champ de saisie de texte doté d'une zone personnalisable.
+Lorsqu'un <form>est soumis, les namechamps qui acceptent la saisie et les champs valuede ces champs sont envoyés par name=valuepaires.
+L'utilisation de l' <form>élément conjointement avec les autres éléments répertoriés ci-dessus nous permet de créer des sites qui prennent en compte les désirs et les besoins de nos utilisateurs. Profitez-en pour mettre en pratique ce que vous avez appris !
+4:
+Super travail en ajoutant la validation côté client aux <form>s !
+
+Récapitulons rapidement :
+
+Les validations côté client ont lieu dans le navigateur avant que les informations ne soient envoyées à un serveur.
+L'ajout de l' requiredattribut à un élément lié à l'entrée validera que le champ de saisie contient des informations.
+L'attribution d'une valeur à l' minattribut d'un élément d'entrée numérique validera une valeur minimale acceptable.
+L'attribution d'une valeur à l' maxattribut d'un élément d'entrée numérique validera une valeur maximale acceptable.
+L'attribution d'une valeur à l' minlengthattribut d'un élément de saisie de texte validera un nombre minimum de caractères acceptable.
+Attribuer une valeur à l' maxlengthattribut d'un élément de saisie de texte validera un nombre maximum de caractères acceptable.
+Affectation d'une expression régulière pour patternfaire correspondre l'entrée à l'expression régulière fournie.
+Si les validations sur un <form>échouent, l'utilisateur reçoit un message expliquant pourquoi et <form>ne peut pas être soumis.
+Ces vérifications rapides permettent de garantir que les données saisies sont correctes et sûres pour nos serveurs. Cela permet également de donner aux utilisateurs un retour immédiat sur ce qu'ils doivent corriger au lieu d'avoir à attendre qu'un serveur renvoie ces informations.
+5:
+Félicitations pour avoir terminé cette leçon sur le HTML sémantique ! Maintenant que vous connaissez les avantages du HTML sémantique et comment l'utiliser, vous pouvez incorporer des éléments sémantiques dans votre site Web pour le rendre plus accessible et rendre le code plus facile à lire.
+
+Passons en revue certains des sujets que nous avons abordés tout au long de la leçon :
+
+Le HTML sémantique donne du sens à une page à travers des éléments spécifiques qui fournissent un contexte sur ce qui se trouve entre les balises.
+Le HTML sémantique est une norme moderne qui rend un site Web accessible aux personnes qui utilisent des lecteurs d'écran pour traduire la page Web et améliore le référencement de votre site Web.
+<header>, <nav>, <main>et <footer>créez la structure de base de la page Web.
+<section>définit les éléments d'un document, tels que les chapitres, les titres ou toute autre zone du document ayant le même thème.
+<article>contient du contenu qui a du sens en soi, comme des articles, des blogs, des commentaires, etc.
+<aside>contient des informations liées au contenu principal, mais non nécessaires à la compréhension des informations dominantes.
+<figure>encapsule tous les types de médias.
+<figcaption>est utilisé pour décrire les médias dans <figure>.
+<video>, <embed>, et <audio>les éléments sont utilisés pour les fichiers multimédias.
+Maintenant, appliquez ces connaissances pour devenir un meilleur développeur Web.
+

@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(51, 172, 219);
+    font-size: 20px;
+    font-family: 'FoundryMonoline-Extrabold';
+    padding: 96px 96px;
+    text-align: left;
+}
+
+header{
+}
+
+@font-face {
+    font-family: 'FoundryMonoline-Extrabold';
+    src: url("./fonts/foundrymonoline-extrabold.ttf") format("truetype");
+}
+
+.Carrière{
+    padding: 0px 96px;
+    text-align: right;
+}
+
+.Presentation h5,
+.Presentation p{
+    margin: 0px;
+    display: inline-block;
+    padding: 25px;
+}
+
+.Presentation p{
+    text-align: right;
+    float: right;
+}
+
+/*.DES{
+    text-align: right;
+    padding-right: 2em;
+    float: right;
+}*/
